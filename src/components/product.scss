@@ -1,0 +1,25 @@
+@import './variable.scss';
+
+.productList {
+    border: 1px solid red;
+
+    .product_card {
+        .card_name {
+            color: $colorMain;
+            font-family: $fontName;
+        }
+        .card_price {
+
+        }
+        .card_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            &.active {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    }
+}
+

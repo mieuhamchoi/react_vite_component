@@ -1,5 +1,6 @@
 import Navbar1 from './components/Navbar'
-
+import ProductList from './components/ProductList'
+import './components/product.scss'
 function App() {
 
   return (
@@ -7,6 +8,7 @@ function App() {
       File App Nè
       {/* <Navbar1></Navbar1> */}
       <Navbar1/>
+      <ProductList/>
     </div>
   )
 }
